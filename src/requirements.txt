@@ -1,0 +1,15 @@
+matplotlib
+pycocotools
+termcolor
+yacs
+tabulate
+cloudpickle
+tqdm
+tensorboard
+fvcore
+iopath
+dataclasses
+omegaconf
+hydra-core
+black
+packaging
