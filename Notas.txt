@@ -1,2 +1,0 @@
-comando para gerar o executavel com o pyinstaller e todos os imports necessarios e ocultos 
-pyinstaller -F -w --add-data '../detectron2:.' --hidden-import=matplotlib --hidden-import=pycocotools --hidden-import=termcolor --hidden-import=yacs --hidden-import=tabulate --hidden-import=cloudpickle --hidden-import=tqdm --hidden-import=tensorboard --hidden-import=fvcore --hidden-import=iopath --hidden-import=dataclasses --hidden-import=omegaconf --hidden-import=hydra-core --hidden-import=black --hidden-import=packaging .\main.py
