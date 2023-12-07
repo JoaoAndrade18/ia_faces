@@ -19,26 +19,20 @@ Antes de começar, certifique-se de ter instalado o seguinte software em sua má
 
 ## Clonar o repositório
 Para clonar o repositório, você pode usar o seguinte comando:
-bash git clone https://github.com/seu_usuario/seu_projeto.git
-
+bash https://github.com/JoaoAndrade18/ia_faces.git
 
 ## Instalar dependências
 Navegue até a pasta do projeto e instale as dependências necessárias com o seguinte comando:
-
 bash pip install -r requirements.txt
-
 
 ## Criar e ativar o ambiente virtual
 Crie um ambiente virtual e ative-o:
-
 bash python -m venv venv source venv/bin/activate
-
 
 ## Executar o projeto
 Depois de clonar o repositório e instalar as dependências, você pode executar o projeto com o seguinte comando:
-
+bash cd /src
 bash python main.py
-
 
 ## Contribuidores
 Aqui está uma lista dos contribuidores do projeto:
