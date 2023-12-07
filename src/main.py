@@ -55,7 +55,7 @@ class PeopleDetectionApp:
         self.cfg = get_cfg()
         self.cfg.merge_from_file("../detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")
         self.cfg.MODEL.DEVICE = 'cpu'
-        self.cfg.MODEL.WEIGHTS = os.path.join("./model_final.pth")
+        self.cfg.MODEL.WEIGHTS = os.path.join("./model_final.pth") # colocar o nome do modelo utilizado
         self.cfg.MODEL.ROI_HEADS.NUM_CLASSES = 13
         self.cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.50
         self.predictor = DefaultPredictor(self.cfg)
